@@ -76,7 +76,7 @@ optional) The year in the .txt document Starting_year is the year that will be f
 	
 	Algorithmic trading(year-year)		https://github.com/maxaus2002/Evaluating-Deep-Learning-Models-for-Minute-Level-Bitcoin-Forecasting-and-Subsequent-Trading-/releases/tag/Trading
 
-3)  Run the desired trading .exe
+7)  Run the desired trading .exe
     -   Monthly-resetting:
 
 	Algorithmic Based (Year-Year Portfolio).exe
@@ -85,6 +85,7 @@ optional) The year in the .txt document Starting_year is the year that will be f
 
 	Algorithmic Based (Month-Month Portfolio.exe
 
+8)  Once completed all equity graphs are viewable in their respective month folder
 ------------------------------------------------------------------------
 
 
@@ -115,6 +116,8 @@ Quick Start - Manual method
     -   Yearly-resetting:
 
 	Algorithmic Based (Month-Month Portfolio
+
+7)  Once completed all equity graphs are viewable in their respective month folder
 ------------------------------------------------------------------------
 
 Configuration
