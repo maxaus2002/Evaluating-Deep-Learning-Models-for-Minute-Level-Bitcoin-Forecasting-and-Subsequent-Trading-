@@ -61,7 +61,7 @@ Quick Start - Quick method
 
 4) Highlight all -> 7zip -> Extract here
 
-optional) The year in the .txt document Starting_year is the year that will be forecast from, by defult it is set to 2025. The earliest year possible is 2012. Set to None for it to do all years
+optional) The year in the .txt document Starting_year is the year that will be forecast from; by default it is set to 2025. The earliest year possible is 2012. Set to None for it to do all years
 
 5) Run the respective .exe
 
