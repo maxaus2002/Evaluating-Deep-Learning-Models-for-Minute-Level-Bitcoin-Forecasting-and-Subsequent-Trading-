@@ -1,6 +1,13 @@
 # Evaluating-Deep-Learning-Models-for-Minute-Level-Bitcoin-Forecasting-and-Subsequent-Trading-
 MAST7240 Final Project Max Austin
 
+Report
+	Contains the report explaining the project and all research
+
+ Code
+ 	Contains the following
+
+
 Bitcoin Forecasting & Algorithmic Trading
 
 Two identically structured pipelines (LSTM.py and Transformer.py)
