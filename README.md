@@ -4,6 +4,9 @@ MAST7240 Final Project Max Austin
 Report
 	Contains the report explaining the project and all research
 
+Releases
+	Contains the relevant Executables, explained and linked below
+ 
  Code
  	Contains the following
 
