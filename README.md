@@ -229,3 +229,6 @@ Troubleshooting
 - "RuntimeError: main thread is not in main loop
 Tcl_AsyncDelete: async handler deleted by the wrong thread"
 	Rerun Code, the issue happens very rarely during cache cleaning
+
+-Errors regarding depreceated code
+	Please ignore, is completely inconsequential and was just something I never got around to fixing as other things were far more important
