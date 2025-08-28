@@ -134,13 +134,9 @@ Quick Start - Manual method
 
 Configuration
 
-At the top of each script:
+starting_year.txt
 
-    # Forecast span control
-    SKIP_BEFORE_YEAR = 2025   # set to an int year to start from that year
-                              # set to None to include all years
-
--   Default: only forecast months in 2025+.
+-   Default: only forecast months in 2024+.
 -   Change to another year (e.g., 2023) to start at that year.
 -   Use None to process all available years in the dataset.
 
