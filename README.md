@@ -72,7 +72,8 @@ Quick Start - easy method
 
 6) Download starting_year.txt from the same location as the model and move to the same folder as the resulting .exe from above
 
-optional) The year in the .txt document Starting_year is the year that will be forecast from; by default, it is set to 2025. The earliest year possible is 2012. Set to None for it to do all years
+optional) The year in the .txt document Starting_year is the year that will be forecast from; by default, it is set to 2024. The earliest year possible is 2012. Set to None for it to do all years. 
+	(Note - whatever year it is set to, the first 3 months will be used for training the lstm, and the 4th month for teaching the initial trading algorithm. And so all equity graphs will start from the 5th month.
 
 7) Run the respective .exe
 
