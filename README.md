@@ -71,7 +71,7 @@ Quick Start - easy method
 
 4) Move all downloaded zips to an empty folder
 
-5) Highlight all -> right click -> 7zip -> Extract here
+5) Highlight all -> right click -> 7zip -> Extract here			(In the event WinRAR is installed on your system, your .7z.001 file may be replaced with a 7z file. In the event of this just right click the .7z file instead of highlighting all of the files)
 
 6) Download starting_year.txt from the same location as the model and move to the same folder as the resulting .exe from above
 
