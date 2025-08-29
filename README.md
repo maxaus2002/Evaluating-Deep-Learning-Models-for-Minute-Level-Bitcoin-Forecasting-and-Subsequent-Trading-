@@ -1,12 +1,12 @@
 # Evaluating-Deep-Learning-Models-for-Minute-Level-Bitcoin-Forecasting-and-Subsequent-Trading-
 MAST7240 Final Project Max Austin
 
+The project in its entirety is available on GitHub: https://github.com/maxaus2002/Evaluating-Deep-Learning-Models-for-Minute-Level-Bitcoin-Forecasting-and-Subsequent-Trading-
+(The GitHub repository also contains all .exe versions of the various codes, as explained below, so they can be run easily)
+
 Report
 	Contains the report explaining the project and all research
 
-Releases
-	Contains the relevant Executables, explained and linked below
- 
  Code
  	Contains the following
 
@@ -21,7 +21,7 @@ Contents
 
 -   Overview
 -   Quick Start (easy)
-- 	Quick Start (manual)
+-   Quick Start (manual)
 -   Configuration
 -   Directory Structure
 -   Forecasting Outputs
@@ -118,8 +118,8 @@ Quick Start - Manual method
     # or
 	LSTM.py
 
-4)  Set your forecast span
-    -   At the top of the configuration area, choose which year to start at
+optional) The year in the .txt document Starting_year is the year that will be forecast from; by default, it is set to 2024. The earliest year possible is 2012. Set to None for it to do all years. 
+	(Note - whatever year it is set to, the first 3 months will be used for training the lstm, and the 4th month for teaching the initial trading algorithm. And so all equity graphs will start from the 5th month.
 
 5) run forecasting code till all desired months have been forecasted or the code stops running
 
@@ -137,9 +137,13 @@ Quick Start - Manual method
 
 Configuration
 
-starting_year.txt
+At the top of each script:
 
--   Default: only forecast months in 2024+.
+    # Forecast span control
+    SKIP_BEFORE_YEAR = 2025   # set to an int year to start from that year
+                              # set to None to include all years
+
+-   Default: only forecast months in 2025+.
 -   Change to another year (e.g., 2023) to start at that year.
 -   Use None to process all available years in the dataset.
 
@@ -233,5 +237,3 @@ Troubleshooting
 Tcl_AsyncDelete: async handler deleted by the wrong thread"
 	Rerun Code, the issue happens very rarely during cache cleaning
 
--Errors regarding depreceated code
-	Please ignore, is completely inconsequential and was just something I never got around to fixing as other things were far more important
